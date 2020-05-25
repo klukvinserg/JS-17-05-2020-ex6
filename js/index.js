@@ -1,11 +1,11 @@
 function hook(e) {
-  var el = document.getElementById("div_main");
+  let el = document.getElementById("div_main");
   el.startX = e.type == "mousedown" ? e.clientX - el.offsetWidth : 0;
   el.startY = e.type == "mousedown" ? e.clientY - el.offsetHeight : 0;
 }
 
 function move(e) {
-  var el = document.getElementById("div_main");
+  let el = document.getElementById("div_main");
 
   if (el.startX) el.style.width = e.clientX - el.startX + "px";
 

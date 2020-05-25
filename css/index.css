@@ -7,15 +7,15 @@
     width:50%;
     border:solid 2px rgb(128, 128, 128);
     overflow: hidden;
-  }
+}
 
   #div_img {
     z-index:1;
     right:0px;
     bottom:0px;
     position:absolute;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-image: url('../img/1.jpg');
     background-position: center;
     background-size: cover;
